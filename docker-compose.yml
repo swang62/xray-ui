@@ -6,6 +6,7 @@ services:
     ports:
       - 2053:2053
       - 28682:28682
+      - 14302:14302
     restart: unless-stopped
     tty: true
     volumes:
